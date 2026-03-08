@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cafetería Bocatería IES Altavista | Arrecife</title>
+  <meta
+    name="description"
+    content="Cafetería Bocatería IES Altavista en Arrecife. Desayunos, bocadillos, hamburguesas, platos caseros, pedidos para llevar y reparto a domicilio."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700;800&family=Fraunces:opsz,wght@9..144,600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-shell">
+      <a href="#inicio" class="brand" aria-label="Ir al inicio">
+        <span class="brand-mark">☕</span>
+        <span class="brand-text">
+          <strong>IES Altavista</strong>
+          <small>Cafetería · Bocatería</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="siteNav" aria-label="Abrir menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" id="siteNav">
+        <a href="#inicio">Inicio</a>
+        <a href="#propuesta">Propuesta</a>
+        <a href="#carta">Carta</a>
+        <a href="#pedidos">Pedidos</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero-section">
+      <div class="hero-glow hero-glow-one"></div>
+      <div class="hero-glow hero-glow-two"></div>
+
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">Arrecife · desayunos · bocadillos · comida casera</span>
+          <h1>Cafetería Bocatería IES Altavista</h1>
+          <p>
+            Un local pensado para resolver el día fácil: café, bocadillos, hamburguesas,
+            platos combinados, opciones para llevar y servicio a domicilio.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="https://wa.me/34659703934" target="_blank" rel="noopener noreferrer">Pedir por WhatsApp</a>
+            <a class="btn btn-secondary" href="tel:+34828914527">Llamar ahora</a>
+            <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&query=Calle+Las+Quemadas+3,+Arrecife" target="_blank" rel="noopener noreferrer">Cómo llegar</a>
+          </div>
+
+          <div class="hero-pills" aria-label="Servicios principales">
+            <div class="hero-pill-wrap">
+              <button
+                class="hero-pill-button"
+                id="hoursToggle"
+                type="button"
+                aria-expanded="false"
+                aria-controls="hoursDropdown"
+              >
+                ☀️ Abierto mañana y tarde
+              </button>
+
+              <div class="hours-dropdown" id="hoursDropdown">
+                <strong>Horario</strong>
+                <p>Lunes a sábado</p>
+                <p>7:00 a. m. a 2:00 p. m.</p>
+                <p>5:00 p. m. a 8:00 p. m.</p>
+              </div>
+            </div>
+
+            <span>🥪 Para llevar</span>
+            <span>🛵 Reparto a domicilio</span>
+          </div>
+        </div>
+
+        <aside class="hero-panel" aria-label="Resumen rápido del local">
+          <div class="hero-panel-card">
+            <p class="panel-label">Lo más pedido</p>
+            <h2>Bocadillos, hamburguesas y platos fuera de carta</h2>
+            <ul>
+              <li>Bocadillos, racings y sándwiches</li>
+              <li>Hamburguesas, perritos y salchipapas</li>
+              <li>Fajitas, burritos, tortillas y platos combinados</li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="propuesta" class="section section-soft">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-kicker">La propuesta</span>
+          <h2>Comida práctica, variada y con ritmo de barrio</h2>
+          <p>
+            La base del local está clara: desayunos tempranos, comida casera, opciones contundentes y una forma rápida de pedir sin complicaciones.
+          </p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="info-card">
+            <span class="card-icon">☕</span>
+            <h3>Desayunos desde temprano</h3>
+            <p>Café, bocadillos y opciones rápidas para arrancar el día sin perder tiempo.</p>
+          </article>
+
+          <article class="info-card">
+            <span class="card-icon">🍽️</span>
+            <h3>Comida casera y fuera de carta</h3>
+            <p>Además de la carta base, el local mueve platos del día y propuestas caseras.</p>
+          </article>
+
+          <article class="info-card">
+            <span class="card-icon">📲</span>
+            <h3>Pedido fácil</h3>
+            <p>Puedes pedir por teléfono, WhatsApp, para llevar o con reparto según la zona.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="carta" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-kicker">Carta base</span>
+          <h2>Lo que la gente espera encontrar aquí</h2>
+          <p>
+            Una carta amplia, directa y pensada para cubrir desayunos, almuerzos rápidos y pedidos que de verdad resuelven.
+          </p>
+        </div>
+
+        <div class="menu-grid">
+          <div class="menu-gallery">
+            <div class="menu-track">
+              <figure class="menu-slide">
+                <img src="images/carta-1.jpg" alt="Carta 1 de Cafetería Bocatería IES Altavista" />
+              </figure>
+
+              <figure class="menu-slide">
+                <img src="images/carta-2.jpg" alt="Carta 2 de Cafetería Bocatería IES Altavista" />
+              </figure>
+
+              <figure class="menu-slide">
+                <img src="images/carta-3.jpg" alt="Carta 3 de Cafetería Bocatería IES Altavista" />
+              </figure>
+            </div>
+
+            <p class="menu-note">Desliza para ver el resto de la carta</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pedidos" class="section section-contrast">
+      <div class="container order-layout">
+        <div>
+          <div class="section-heading section-heading-left">
+            <span class="section-kicker">Pedidos y reparto</span>
+            <h2>Hecho para pedir rápido y seguir con tu día</h2>
+            <p>
+              El local comunica con claridad sus teléfonos, trabaja pedidos por WhatsApp y ofrece reparto a domicilio en Arrecife y zonas cercanas.
+            </p>
+          </div>
+
+          <div class="steps-list">
+            <article class="step-card">
+              <span>1</span>
+              <div>
+                <h3>Elige lo que te apetece</h3>
+                <p>Bocadillo, hamburguesa, plato combinado o lo que haya fuera de carta ese día.</p>
+              </div>
+            </article>
+
+            <article class="step-card">
+              <span>2</span>
+              <div>
+                <h3>Haz el pedido</h3>
+                <p>Llama o escribe por WhatsApp para resolverlo rápido y sin fricción.</p>
+              </div>
+            </article>
+
+            <article class="step-card">
+              <span>3</span>
+              <div>
+                <h3>Recógelo o pide reparto</h3>
+                <p>Para llevar cuando vas con prisa o a domicilio cuando prefieres no moverte.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <aside class="contact-panel">
+          <h3>Datos rápidos</h3>
+
+          <div class="contact-item">
+            <small>Teléfono fijo</small>
+            <a href="tel:+34828914527">828 914 527</a>
+          </div>
+
+          <div class="contact-item">
+            <small>WhatsApp</small>
+            <a href="tel:+34659703934">659 703 934</a>
+          </div>
+
+          <div class="contact-item">
+            <small>Dirección</small>
+            <p>Calle Las Quemadas, 3 · Arrecife</p>
+          </div>
+
+          <div class="contact-item">
+            <small>Horario</small>
+            <p>Lunes a sábado<br />7:00 a 14:00 · 17:00 a 20:00</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="contacto" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-kicker">Contacto</span>
+          <h2>Todo claro para encontrar, llamar o escribir</h2>
+          <p>
+            Una web para este negocio tiene que hacer una sola cosa bien: convertir visitas en pedidos o visitas al local.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <article class="contact-card">
+            <h3>Ubicación</h3>
+            <p>Calle Las Quemadas, 3<br />35500 · Arrecife, Lanzarote</p>
+            <a href="https://www.google.com/maps/search/?api=1&query=Calle+Las+Quemadas+3,+Arrecife" target="_blank" rel="noopener noreferrer">Abrir en Google Maps</a>
+          </article>
+
+          <article class="contact-card">
+            <h3>Pedidos</h3>
+            <p>Teléfono y WhatsApp activos para pedidos para llevar y reparto.</p>
+            <a href="https://wa.me/34659703934" target="_blank" rel="noopener noreferrer">Escribir por WhatsApp</a>
+          </article>
+
+          <article class="contact-card">
+            <h3>Horario actual</h3>
+            <p>Lunes a sábado<br />7:00 a 14:00 · 17:00 a 20:00</p>
+            <a href="tel:+34828914527">Llamar al local</a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-shell">
+      <div>
+        <strong>Cafetería Bocatería IES Altavista</strong>
+        <p class="footer-copy">© <span id="currentYear"></span> · Arrecife, Lanzarote</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="tel:+34828914527">828 914 527</a>
+        <a href="https://wa.me/34659703934" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=Calle+Las+Quemadas+3,+Arrecife" target="_blank" rel="noopener noreferrer">Ubicación</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
